@@ -1,5 +1,7 @@
 package software.ulpgc.MoneyCalculator;
 
+import software.ulpgc.MoneyCalculator.model.Currency;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -42,7 +44,7 @@ public class TsvFileCurrencyLoader implements CurrencyLoader {
     }
 
     private Currency toCurrency(String[] fields) {
-        return new Currency(fields[0], fields[1], fields.length == 2 ? "" : fields[2]);
+        return new Currency(fields[0], fields[1]);
     }
 
 }
