@@ -5,4 +5,5 @@ public record Currency(String code, String name) {
     public String toString() {
         return code + "-" + name;
     }
+
 }

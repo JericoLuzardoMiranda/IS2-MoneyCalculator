@@ -24,6 +24,7 @@ public class SwingMain extends JFrame {
     public static void main(String[] args) {
         SwingMain main = new SwingMain();
         List<Currency> currencies = new FixerCurrencyLoader().load();
+        System.out.println("Currencies: " + currencies);
         Command command = new ExchangeMoneyCommand(
                 main.moneyDialog().define(currencies),
                 main.currencyDialog().define(currencies),
@@ -40,19 +41,21 @@ public class SwingMain extends JFrame {
 
     public SwingMain() throws HeadlessException {
         this.setTitle("Money Calculator");
-        this.setSize(600, 600);
+        this.setSize(1000, 600);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
 
-        JLabel titleLabel = new JLabel("Money calculator", JLabel.CENTER);
-        titleLabel.setFont(new Font("Arial", Font.BOLD, 45));
+        JLabel titleLabel = new JLabel("Money Calculator", JLabel.CENTER);
+        titleLabel.setFont(new Font("Kaushan Script", Font.BOLD, 115));
         this.add(titleLabel, BorderLayout.NORTH);
 
         this.add(createMoneyDialog());
         this.add(createCurrencyDialog());
         this.add(createMoneyDisplay());
         this.add(createCalculateButton());
+
+        this.getContentPane().setBackground(Color.lightGray);
 
         this.setVisible(true);
 

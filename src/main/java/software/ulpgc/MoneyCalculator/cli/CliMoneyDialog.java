@@ -19,7 +19,7 @@ public class CliMoneyDialog implements MoneyDialog {
 
     private Currency currency() {
         Currency currency = currencyDialog.get();
-        System.out.println("Currency from CliMoneyDialog: " + currency);  // Verifica si currency es null
+        System.out.println("Currency from CliMoneyDialog: " + currency);
         return currency;
     }
 
