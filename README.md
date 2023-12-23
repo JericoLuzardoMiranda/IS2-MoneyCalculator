@@ -28,7 +28,7 @@ A continuación, se muestran capturas de pantalla de la interfaz de usuario del 
 
    Se entiende cómo se ve la salida en la consola cuando se ejecuta el cargador de divisas desde un archivo TSV.
 
-2. **Version 2 - Conversión de Monedas**
+2. **Versión 2 - Conversión de Monedas**
 
    ![screenshot2](https://github.com/JericoLuzardoMiranda/IS2-MoneyCalculator/blob/0e8de0c3563c9f525bc99db353f8a737d1d41ba4/screenshot/screenshot2.png)
 
@@ -41,3 +41,10 @@ A continuación, se muestran capturas de pantalla de la interfaz de usuario del 
    ![screenshot4](https://github.com/JericoLuzardoMiranda/IS2-MoneyCalculator/blob/0e8de0c3563c9f525bc99db353f8a737d1d41ba4/screenshot/screenshot4.png)
 
    Se presenta el resultado de la conversión mostrando el equivalente en la divisa seleccionada.
+
+3. **Versión 3 - Interfaz**
+
+   ![GIF1](https://github.com/JericoLuzardoMiranda/IS2-MoneyCalculator/blob/38eeed899434c6fbeefe180f0f7c22a93da8380a/screenshot/GIF1.gif)
+
+   Se presenta la vista previa de la interfaz en acción, teniendo la oportunidad de observar cómo funciona el Conversor de Monedas en tiempo real.
+
